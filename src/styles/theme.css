@@ -1,0 +1,17 @@
+.theme {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 99;
+}
+
+.theme button {
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.icon-blue {
+  color: rgb(55, 108, 255);
+}
