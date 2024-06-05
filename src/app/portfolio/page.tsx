@@ -97,7 +97,9 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/wood.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Wood products Store Landing Page</h4>
+                  <h4></h4>
+                   <a href=" http://anime-4life.42web.io/#"> <h4>Wood products Store Landing Page </h4></a>
+                 
                   <div className="icon">
                     <i className="fa fa-search" />
                   </div>
