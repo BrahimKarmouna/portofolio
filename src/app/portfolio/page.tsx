@@ -15,7 +15,8 @@ const Portfolio: NextPage = () => {
               <button type="button" className="active" data-filter="all">
                 My Recently Projects
               </button>
-              {/* <button type="button" data-filter="graphics-design">
+              {/* 
+              <button type="button" data-filter="graphics-design">
                 Graphics Design
               </button>
               <button type="button" data-filter="web-design">
@@ -23,7 +24,8 @@ const Portfolio: NextPage = () => {
               </button>
               <button type="button" data-filter="wordpress">
                 Wordpress
-              </button> */}
+              </button> 
+              */}
             </div>
           </div>
           <div className="row">
@@ -34,14 +36,14 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/1.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Full Anime Streamin Website i builde it by laravel freamwork</h4>
+                  <h4>Full Anime Streaming Website built with Laravel framework</h4>
                   <div className="icon">
                     <i className="fa fa-search" />
                   </div>
                 </div>
               </div>
             </div>
-            {/* Portfolio Item End*/}
+            {/* Portfolio Item End */}
             {/* Portfolio Item */}
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
@@ -49,14 +51,14 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/lux.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Luxury E-commerce Website    </h4>
+                  <h4>Luxury E-commerce Website</h4>
                   <div className="icon">
                     <i className="fa fa-search" />
                   </div>
                 </div>
               </div>
             </div>
-            {/* Portfolio Item End*/}
+            {/* Portfolio Item End */}
             {/* Portfolio Item */}
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
@@ -64,32 +66,29 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/tkdw.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4> Taekwondo points scoring system</h4> 
+                  <h4>Taekwondo points scoring system</h4>
                   <div className="icon">
                     <i className="fa fa-search" />
                   </div>
                 </div>
               </div>
             </div>
-            {/* Portfolio Item End*/}
+            {/* Portfolio Item End */}
             {/* Portfolio Item */}
-            <div
-              className="portfolio-item padd-15"
-              data-category="graphics-design"
-            >
+            <div className="portfolio-item padd-15" data-category="graphics-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
                   <img src="/imgs/portfolio/sartie.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Landing page for E-website Html /Css/Bootstrap</h4>***
+                  <h4>Landing page for E-website Html/Css/Bootstrap</h4>
                   <div className="icon">
                     <i className="fa fa-search" />
                   </div>
                 </div>
               </div>
             </div>
-            {/* Portfolio Item End*/}
+            {/* Portfolio Item End */}
             {/* Portfolio Item */}
             <div className="portfolio-item padd-15" data-category="wordpress">
               <div className="portfolio-item-inner shadow-dark">
@@ -97,16 +96,18 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/wood.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4></h4>
-                   <a href="https://brahimkarmouna.github.io/woodfire/"> <h4>Wood products Store Landing Page </h4></a>
-                 
-                     <div className="icon">
-                   <a href="https://brahimkarmouna.github.io/woodfire/> <i className="fa fa-search" /></a>
+                  <a href="https://brahimkarmouna.github.io/woodfire/">
+                    <h4>Wood products Store Landing Page</h4>
+                  </a>
+                  <div className="icon">
+                    <a href="https://brahimkarmouna.github.io/woodfire/">
+                      <i className="fa fa-search" />
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            {/* Portfolio Item End*/}
+            {/* Portfolio Item End */}
             {/* Portfolio Item */}
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
@@ -114,14 +115,18 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/gym.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-              <a href="https://brahimkarmouna.github.io/gym-website/"> <h4>Landing page for Gym Using Html/Css/bootstrap/js </h4></a>
+                  <a href="https://brahimkarmouna.github.io/gym-website/">
+                    <h4>Landing page for Gym Using Html/Css/bootstrap/js</h4>
+                  </a>
                   <div className="icon">
-                   <a href="https://brahimkarmouna.github.io/gym-website/"> <i className="fa fa-search" /></a>
+                    <a href="https://brahimkarmouna.github.io/gym-website/">
+                      <i className="fa fa-search" />
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            {/* Portfolio Item End*/}
+            {/* Portfolio Item End */}
           </div>
         </div>
       </section>
