@@ -40,10 +40,10 @@ const Portfolio: NextPage = () => {
                         <a href="https://www.youtube.com/watch?v=VDWy0Zrl6_o">
                     <h4>Full Anime Streaming Website built with Laravel framework</h4>
                   </a>
-                  <div className="icon">
-                     <a href="https://www.youtube.com/watch?v=VDWy0Zrl6_o">
-                    <i className="fa fa-search" />      </a>
-                  </div>
+                  <a href="https://www.youtube.com/watch?v=VDWy0Zrl6_o"> <div className="icon">
+                    
+                    <i className="fa fa-search" />    
+                  </div>  </a>
                 </div>
               </div>
             </div>
@@ -75,11 +75,11 @@ const Portfolio: NextPage = () => {
                     <h4>Full Taekwondo scoring system for combat</h4>
                   </a>
                  
-                  <div className="icon">
-                    <a href=" https://www.youtube.com/watch?v=CDecK3FONTU">
+                    <a href=" https://www.youtube.com/watch?v=CDecK3FONTU"> <div className="icon">
+                 
                     <i className="fa fa-search" />
-                        </a>
-                  </div>
+                       
+                  </div> </a>
                 </div>
               </div>
             </div>
@@ -95,9 +95,9 @@ const Portfolio: NextPage = () => {
                   <a href=" https://www.youtube.com/watch?v=tEPNXmmP2g8">
                    <h4>Landing page for E-website Html/Css/Bootstrap</h4>
                   </a>
-                  <div className="icon">
-                      <a href=" https://www.youtube.com/watch?v=tEPNXmmP2g8">  <i className="fa fa-search" />    </a>
-                  </div>
+                 <a href=" https://www.youtube.com/watch?v=tEPNXmmP2g8">  <div className="icon">
+                       <i className="fa fa-search" />   
+                  </div> </a>
                 </div>
               </div>
             </div>
@@ -112,11 +112,11 @@ const Portfolio: NextPage = () => {
                   <a href="https://brahimkarmouna.github.io/woodfire/#">
                     <h4>Wood products e-comerce Store Landing Page</h4>
                   </a>
-                  <div className="icon">
-                    <a href="https://brahimkarmouna.github.io/woodfire/#">
+                 <a href="https://brahimkarmouna.github.io/woodfire/#"> <div className="icon">
+                    
                       <i className="fa fa-search" />
-                    </a>
-                  </div>
+                  
+                  </div>  </a>
                 </div>
               </div>
             </div>
@@ -131,11 +131,11 @@ const Portfolio: NextPage = () => {
                   <a href="https://brahimkarmouna.github.io/gym-website/">
                     <h4>Landing page for Gym Using Html/Css/bootstrap/js</h4>
                   </a>
-                  <div className="icon">
-                    <a href="https://brahimkarmouna.github.io/gym-website/">
+                 <a href="https://brahimkarmouna.github.io/gym-website/">  <div className="icon">
+                   
                       <i className="fa fa-search" />
-                    </a>
-                  </div>
+                   
+                  </div> </a>
                 </div>
               </div>
             </div>
