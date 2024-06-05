@@ -21,7 +21,7 @@ export default async function Home() {
               <a href="https://facebook.com/" target="_blank">
                 <i className="fa fa-facebook" />
               </a>
-              <a href="https://github.com/" target="_blank">
+              <a href="https://github.com/BrahimKarmouna" target="_blank">
                 <i className="fa fa-github" />
               </a>
               <a href="https://instagram.com/" target="_blank">
