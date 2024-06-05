@@ -55,11 +55,11 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/lux.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Luxury E-commerce Website</h4>
-                  <div className="icon">
+              <a href="https://youtu.be/m2oCC7VPQqk"> <h4>Luxury E-commerce Website</h4> </a>
+                 <a href="https://youtu.be/m2oCC7VPQqk">   <div className="icon">
                     <i className="fa fa-search" />
-                  </div>
-                </div>
+                  </div> </a>
+                </div> 
               </div>
             </div>
             {/* Portfolio Item End */}
