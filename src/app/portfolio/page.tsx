@@ -55,7 +55,7 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/lux.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-              <a href="https://youtu.be/m2oCC7VPQqk"> <h4>Luxury E-commerce Website</h4> </a>
+              <a href="https://youtu.be/m2oCC7VPQqk"> <h4>  Luxury E-commerce Website "pending" created by html/css/js </h4> </a>
                  <a href="https://youtu.be/m2oCC7VPQqk">   <div className="icon">
                     <i className="fa fa-search" />
                   </div> </a>
