@@ -36,9 +36,13 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/1.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Full Anime Streaming Website built with Laravel framework</h4>
+                  <h4></h4>
+                        <a href="https://www.youtube.com/watch?v=VDWy0Zrl6_o">
+                    <h4>Full Anime Streaming Website built with Laravel framework</h4>
+                  </a>
                   <div className="icon">
-                    <i className="fa fa-search" />
+                     <a href="https://www.youtube.com/watch?v=VDWy0Zrl6_o">
+                    <i className="fa fa-search" />      </a>
                   </div>
                 </div>
               </div>
