@@ -85,9 +85,9 @@ Let's build something amazing together!
                           <h6 className="timeline-date">
                             <i className="fa fa-calendar" /> 04/2024 to 05/2024
                           </h6>
-                          <h4 className="timeline-title">Stage  </h4>
+                          <h4 className="timeline-title">internship  </h4>
                           <p className="timeline-text">
-                            during my studying i passe a stage in the bigest taekwondo gym in my city and i builded for them full yaekwondo scoring system for the players coombat
+                            during my studying i passe an internship in the bigest taekwondo gym in my city and i builded for them full yaekwondo scoring system for the players coombat
                           </p>
                         </div>
                         
