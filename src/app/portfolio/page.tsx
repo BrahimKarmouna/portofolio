@@ -112,7 +112,7 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/gym.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Landing page for Gym Using Html/Css/bootstrap </h4>
+              <a href="https://meliodas-code.github.io/gym-website/"> <h4>Landing page for Gym Using Html/Css/bootstrap </h4></a>
                   <div className="icon">
                     <i className="fa fa-search" />
                   </div>
