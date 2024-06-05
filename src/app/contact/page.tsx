@@ -47,8 +47,8 @@ const Contact: NextPage = () => {
             <div className="icon">
               <i className="fa fa-map-marker" />
             </div>
-            <h4>the first roid ,32</h4>
-            <p>Tangie, Morocco</p>
+            <h4>Bni oukil ,Driouch</h4>
+            <p>Driouch, Morocco</p>
           </div>
           <div className="contact-info-item padd-15">
             <div className="icon">
