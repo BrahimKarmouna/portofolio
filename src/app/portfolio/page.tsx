@@ -100,11 +100,11 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/wood.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <a href="https://brahimkarmouna.github.io/woodfire/">
-                    <h4>Wood products Store Landing Page</h4>
+                  <a href="https://brahimkarmouna.github.io/woodfire/#">
+                    <h4>Wood products e-comerce Store Landing Page</h4>
                   </a>
                   <div className="icon">
-                    <a href="https://brahimkarmouna.github.io/woodfire/">
+                    <a href="https://brahimkarmouna.github.io/woodfire/#">
                       <i className="fa fa-search" />
                     </a>
                   </div>
