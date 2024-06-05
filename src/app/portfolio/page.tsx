@@ -114,7 +114,7 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/gym.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-              <a href="https://brahimkarmouna.github.io/gym-website/"> <h4>Landing page for Gym Using Html/Css/bootstrap </h4></a>
+              <a href="https://brahimkarmouna.github.io/gym-website/"> <h4>Landing page for Gym Using Html/Css/bootstrap/js </h4></a>
                   <div className="icon">
                    <a href="https://brahimkarmouna.github.io/gym-website/"> <i className="fa fa-search" /></a>
                   </div>
