@@ -91,9 +91,12 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/sartie.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Landing page for E-website Html/Css/Bootstrap</h4>
+                  
+                  <a href=" https://www.youtube.com/watch?v=tEPNXmmP2g8">
+                   <h4>Landing page for E-website Html/Css/Bootstrap</h4>
+                  </a>
                   <div className="icon">
-                    <i className="fa fa-search" />
+                      <a href=" https://www.youtube.com/watch?v=tEPNXmmP2g8">  <i className="fa fa-search" />    </a>
                   </div>
                 </div>
               </div>
