@@ -98,10 +98,10 @@ const Portfolio: NextPage = () => {
                 </div>
                 <div className="portfolio-info">
                   <h4></h4>
-                   <a href=" http://anime-4life.42web.io/#"> <h4>Wood products Store Landing Page </h4></a>
+                   <a href="https://brahimkarmouna.github.io/woodfire/"> <h4>Wood products Store Landing Page </h4></a>
                  
                      <div className="icon">
-                   <a href=" http://anime-4life.42web.io/#"> <i className="fa fa-search" /></a>
+                   <a href="https://brahimkarmouna.github.io/woodfire/> <i className="fa fa-search" /></a>
                   </div>
                 </div>
               </div>
@@ -114,9 +114,9 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/gym.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-              <a href="https://meliodas-code.github.io/gym-website/"> <h4>Landing page for Gym Using Html/Css/bootstrap </h4></a>
+              <a href="https://brahimkarmouna.github.io/gym-website/"> <h4>Landing page for Gym Using Html/Css/bootstrap </h4></a>
                   <div className="icon">
-                   <a href="https://meliodas-code.github.io/gym-website/"> <i className="fa fa-search" /></a>
+                   <a href="https://brahimkarmouna.github.io/gym-website/"> <i className="fa fa-search" /></a>
                   </div>
                 </div>
               </div>
