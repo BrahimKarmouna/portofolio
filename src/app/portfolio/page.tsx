@@ -70,9 +70,15 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/tkdw.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Taekwondo points scoring system</h4>
+                  
+                     <a href=" https://www.youtube.com/watch?v=CDecK3FONTU">
+                    <h4>Full Taekwondo scoring system for combat</h4>
+                  </a>
+                 
                   <div className="icon">
+                    <a href=" https://www.youtube.com/watch?v=CDecK3FONTU">
                     <i className="fa fa-search" />
+                        </a>
                   </div>
                 </div>
               </div>
