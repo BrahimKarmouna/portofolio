@@ -44,13 +44,11 @@ Let's build something amazing together!
                             <i className="fa fa-calendar" /> 2022 to 2024
                           </h6>
                           <h4 className="timeline-title">
-                            Self Taught (Programming)
+                       Web development 'Studying'
                           </h4>
-                          <p className="timeline-text">
-                            Since 2022 I started to learn Programming. At the Specialized Institute of Applied Technology
-                           and i learned many programming languages and freamworks
-                            
-                          </p>
+                         <p className="timeline-text">
+    Since 2022, I have been immersed in the study of programming. I completed a comprehensive two-year program at the Specialized Institute of Applied Technology, where I gained hands-on experience through internships and acquired proficiency in numerous programming languages and frameworks.
+</p>
                         </div>
                         {/* Timeline Item end */}
                         {/* Timeline Item */}
