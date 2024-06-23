@@ -61,7 +61,7 @@ Let's build something amazing together!
                             <i className="fa fa-calendar" /> 2019 to 2022
                           </h6>
                           <h4 className="timeline-title">
-                           high school studying years
+                           High school studying years
                           </h4>
                           <p className="timeline-text">
                           I successfully completed my high school education, graduating in 2022. Over the course of three years, I developed a strong foundation in various academic subjects and extracurricular activities, which have prepared me well for future academic and professional endeavors.
@@ -85,7 +85,7 @@ Let's build something amazing together!
                           </h6>
                           <h4 className="timeline-title">internship  </h4>
                           <p className="timeline-text">
-                            during my studying i passe an internship in the bigest taekwondo gym in my city and i builded for them full yaekwondo scoring system for the players coombat
+                            During my studying i passe an internship in the bigest Taekwondo gym in my city and i builded for them full Taekwondo scoring system for the players coombat
                           </p>
                         </div>
                         
