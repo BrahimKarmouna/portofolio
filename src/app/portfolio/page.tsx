@@ -55,7 +55,7 @@ const Portfolio: NextPage = () => {
                   <img src="https://i.ibb.co/Qc3YgyJ/simonveviewv.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-              <a href="http://34.118.39.100:3000/us"> <h4>   e-commerce Website for Simon Leviev's book 'Tinder Swindler/NETFLIX STAR '   </h4> </a>
+              <a href="http://34.118.39.100:3000/us"> <h4>   e-commerce Website for Simon Leviev's book 'Tinder Swindler/NETFLIX STAR ' front end Next js /Type scribt /backend nextj s  </h4> </a>
                  <a href="http://34.118.39.100:3000/us">   <div className="icon">
                     <i className="fa fa-search" />
                   </div> </a>
@@ -84,54 +84,18 @@ const Portfolio: NextPage = () => {
               </div>
             </div>
             {/* Portfolio Item End */}
-            {/* Portfolio Item */}
-            <div className="portfolio-item padd-15" data-category="graphics-design">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/sartie.png" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  
-                  <a href=" https://www.youtube.com/watch?v=tEPNXmmP2g8">
-                   <h4>Landing page for E-website Html/Css/Bootstrap</h4>
-                  </a>
-                 <a href=" https://www.youtube.com/watch?v=tEPNXmmP2g8">  <div className="icon">
-                       <i className="fa fa-search" />   
-                  </div> </a>
-                </div>
-              </div>
-            </div>
-            {/* Portfolio Item End */}
-            {/* Portfolio Item */}
-            <div className="portfolio-item padd-15" data-category="wordpress">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/imgs/portfolio/wood.png" alt="portfolio" />
-                </div>
-                <div className="portfolio-info">
-                  <a href="https://brahimkarmouna.github.io/woodfire/#">
-                    <h4>Wood products e-comerce Store Landing Page</h4>
-                  </a>
-                 <a href="https://brahimkarmouna.github.io/woodfire/#"> <div className="icon">
-                    
-                      <i className="fa fa-search" />
-                  
-                  </div>  </a>
-                </div>
-              </div>
-            </div>
-            {/* Portfolio Item End */}
+         
             {/* Portfolio Item */}
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/gym.png" alt="portfolio" />
+                  <img src="https://i.ibb.co/hF5QfP5/abdooptic.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <a href="https://brahimkarmouna.github.io/gym-website/">
-                    <h4>Landing page for Gym Using Html/Css/bootstrap/js</h4>
+                  <a href="https://abdo-optic.vercel.app/">
+                    <h4>Landing page for an opticien Using Next js/tailwind </h4>
                   </a>
-                 <a href="https://brahimkarmouna.github.io/gym-website/">  <div className="icon">
+                 <a href="https://abdo-optic.vercel.app/">  <div className="icon">
                    
                       <i className="fa fa-search" />
                    
