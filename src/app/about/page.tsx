@@ -89,30 +89,16 @@ Let's build something amazing together!
                           </p>
                         </div>
                         
-                        {/* <div className="timeline-item">
+                          <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 06/01 to 08/18
                           </h6>
-                          <h4 className="timeline-title">Web Design</h4>
+                          <h4 className="timeline-title">Zeemarke</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Coding. I have learn
-                            Html, Css, Sass, JavaScript, Bootstrap. Now I am a
-                            Professional Web Designer..
+                            During my time at Zeemarke, I contributed to various development projects, enhancing my skills in software development and project management. My work focused on delivering high-quality software solutions that met client expectations and project deadlines.
                           </p>
-                        </div> */}
-                        
-                        {/* <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
-                          </h6>
-                          <h4 className="timeline-title">Wordpress</h4>
-                          <p className="timeline-text">
-                            Since 2020 I started to learn Wordpress. I can
-                            install, Customize, &amp; fix bug on wordpress.{" "}
-                          </p>
-                        </div> */}
+                        </div>
                        
                       </div>
                     </div>
