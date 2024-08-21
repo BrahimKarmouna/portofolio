@@ -40,7 +40,7 @@ const Portfolio: NextPage = () => {
                         <a href="https://www.youtube.com/watch?v=VDWy0Zrl6_o">
                     <h4>Full Anime Streaming Website built with Laravel framework</h4>
                   </a>
-                  <a href="https://www.youtube.com/watch?v=VDWy0Zrl6_o"> <div className="icon">
+                  <a href="https://anime-4life.com/"> <div className="icon">
                     
                     <i className="fa fa-search" />    
                   </div>  </a>
@@ -52,11 +52,11 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/lux.png" alt="portfolio" />
+                  <img src="https://i.ibb.co/Qc3YgyJ/simonveviewv.png" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-              <a href="https://youtu.be/m2oCC7VPQqk"> <h4>  Luxury E-commerce Website "pending" created by html/css/js </h4> </a>
-                 <a href="https://youtu.be/m2oCC7VPQqk">   <div className="icon">
+              <a href="http://34.118.39.100:3000/us"> <h4>   e-commerce Website for Simon Leviev's book 'Tinder Swindler/NETFLIX STAR '   </h4> </a>
+                 <a href="http://34.118.39.100:3000/us">   <div className="icon">
                     <i className="fa fa-search" />
                   </div> </a>
                 </div> 
