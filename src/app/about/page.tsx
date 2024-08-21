@@ -92,11 +92,11 @@ Let's build something amazing together!
                           <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 06/01 to 08/18
+                            <i className="fa fa-calendar" /> 06/24 to 08/24
                           </h6>
-                          <h4 className="timeline-title">Zeemarke</h4>
+                          <h4 className="timeline-title">Work experience at Zeemarke company </h4>
                           <p className="timeline-text">
-                            During my time at Zeemarke, I contributed to various development projects, enhancing my skills in software development and project management. My work focused on delivering high-quality software solutions that met client expectations and project deadlines.
+                            During my time at Zeemarke, I contributed to various development projects, enhancing my skills in web development and project management. My work focused on delivering high-quality software solutions that met client expectations and project deadlines.
                           </p>
                         </div>
                        
