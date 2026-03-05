@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { FaHome, FaUser, FaList, FaBriefcase, FaEnvelope, FaComments } from "react-icons/fa";
 
 const Sidebar = () => {
   const [open, setOpen] = useState(false);
@@ -24,13 +25,13 @@ const Sidebar = () => {
       <div className="aside-inner">
         <div className="logo">
           <Link href="/" onClick={handleClose}>
-     Welcome
+            Lord Castillo
           </Link>
         </div>
         <ul className="nav">
           <li onClick={handleClose}>
             <Link href="/" className={`${pathUrl == "/" && "active"}`}>
-              <i className="fa fa-home" /> Home
+              <FaHome /> Home
             </Link>
           </li>
           <li onClick={handleClose}>
@@ -38,7 +39,7 @@ const Sidebar = () => {
               href="/about"
               className={`${pathUrl == "/about" && "active"}`}
             >
-              <i className="fa fa-user" /> About
+              <FaUser /> About
             </Link>
           </li>
           <li onClick={handleClose}>
@@ -46,7 +47,7 @@ const Sidebar = () => {
               href="/services"
               className={`${pathUrl == "/services" && "active"}`}
             >
-              <i className="fa fa-list" /> skills
+              <FaList /> Services
             </Link>
           </li>
           <li onClick={handleClose}>
@@ -54,12 +55,12 @@ const Sidebar = () => {
               href="/portfolio"
               className={`${pathUrl == "/portfolio" && "active"}`}
             >
-              <i className="fa fa-briefcase" /> Portfolio
+              <FaBriefcase /> Portfolio
             </Link>
           </li>
           <li onClick={handleClose}>
             {/* <Link href="/blog" className={`${pathUrl == "/blog" && "active"}`}>
-              <i className="fa fa-envelope" /> Blog
+              <FaEnvelope /> Blog
             </Link> */}
           </li>
           <li onClick={handleClose}>
@@ -67,14 +68,14 @@ const Sidebar = () => {
               href="/contact"
               className={`${pathUrl == "/contact" && "active"}`}
             >
-              <i className="fa fa-comments" /> Contact
+              <FaComments /> Contact
             </Link>
           </li>
         </ul>
         <div className="copyright">
-          Created By🖤 {" "} <br/>
-          <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">
-            Brahim karmouna
+          Created By 🖤 {" "} <br/>
+          <a href="https://github.com/BrahimKarmouna" target="_blank" rel="noopener noreferrer">
+            Lord Castillo
           </a>
         </div>
         

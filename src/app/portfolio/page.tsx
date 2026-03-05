@@ -1,4 +1,6 @@
 import type { NextPage } from "next";
+import { FaSearch } from "react-icons/fa";
+import Image from "next/image";
 
 const Portfolio: NextPage = () => {
   return (
@@ -13,19 +15,8 @@ const Portfolio: NextPage = () => {
           <div className="row">
             <div className="portfolio-filter padd-15">
               <button type="button" className="active" data-filter="all">
-                My Recently Projects
+                My Recent Projects
               </button>
-              {/* 
-              <button type="button" data-filter="graphics-design">
-                Graphics Design
-              </button>
-              <button type="button" data-filter="web-design">
-                Web Design
-              </button>
-              <button type="button" data-filter="wordpress">
-                Wordpress
-              </button> 
-              */}
             </div>
           </div>
           <div className="row">
@@ -33,7 +24,7 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/1.png" alt="portfolio" />
+                  <Image src="/imgs/portfolio/1.png" alt="portfolio" width={400} height={300} style={{ width: '100%', height: 'auto' }} />
                 </div>
                 <div className="portfolio-info">
                   <h4></h4>
@@ -42,7 +33,7 @@ const Portfolio: NextPage = () => {
                   </a>
                   <a href="https://anime-4life.com/"> <div className="icon">
                     
-                    <i className="fa fa-search" />    
+                    <FaSearch />    
                   </div>  </a>
                 </div>
               </div>
@@ -52,12 +43,12 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="https://i.ibb.co/Qc3YgyJ/simonveviewv.png" alt="portfolio" />
+                  <Image src="https://i.ibb.co/Qc3YgyJ/simonveviewv.png" alt="portfolio" width={400} height={300} style={{ width: '100%', height: 'auto' }} />
                 </div>
                 <div className="portfolio-info">
               <a href="http://34.118.39.100:3000/us"> <h4>   e-commerce Website for Simon Leviev's book 'Tinder Swindler/NETFLIX STAR ' front end Next js /Type scribt /backend nextj s  </h4> </a>
                  <a href="http://34.118.39.100:3000/us">   <div className="icon">
-                    <i className="fa fa-search" />
+                    <FaSearch />
                   </div> </a>
                 </div> 
               </div>
@@ -67,7 +58,7 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="https://i.ibb.co/hF5QfP5/abdooptic.png" alt="portfolio" />
+                  <Image src="https://i.ibb.co/hF5QfP5/abdooptic.png" alt="portfolio" width={400} height={300} style={{ width: '100%', height: 'auto' }} />
                 </div>
                 <div className="portfolio-info">
                   <a href="https://abdo-optic.vercel.app/">
@@ -75,7 +66,7 @@ const Portfolio: NextPage = () => {
                   </a>
                  <a href="https://abdo-optic.vercel.app/">  <div className="icon">
                    
-                      <i className="fa fa-search" />
+                      <FaSearch />
                    
                   </div> </a>
                 </div>
@@ -87,7 +78,7 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/tkdw.png" alt="portfolio" />
+                  <Image src="/imgs/portfolio/tkdw.png" alt="portfolio" width={400} height={300} style={{ width: '100%', height: 'auto' }} />
                 </div>
                 <div className="portfolio-info">
                   
@@ -97,7 +88,7 @@ const Portfolio: NextPage = () => {
                  
                     <a href=" https://www.youtube.com/watch?v=CDecK3FONTU"> <div className="icon">
                  
-                    <i className="fa fa-search" />
+                    <FaSearch />
                        
                   </div> </a>
                 </div>

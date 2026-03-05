@@ -5,12 +5,12 @@ import "./globals.css";
 import "../styles/style.css";
 import "../styles/blue.css";
 import "../styles/theme.css";
-import Sidebar from "../..//src/components/sidebar/sidebar";
+import Sidebar from "../components/sidebar/sidebar";
 import Providers from "./providers";
-import ThemeSwitch from "../../src/components/panel/ThemeSwitch";
+import ThemeSwitch from "../components/panel/ThemeSwitch";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "it's my- Portfolio",
+  title: "Lord Castillo - Portfolio",
   description: "urFolio - a Open Source portfolio web application",
 };
 export default function RootLayout({

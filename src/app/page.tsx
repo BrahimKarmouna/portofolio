@@ -1,4 +1,8 @@
 
+import Image from "next/image";
+import { FaTwitter, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import Typewriter from "../components/Typewriter";
+
 export default async function Home() {
 
   return (
@@ -6,29 +10,28 @@ export default async function Home() {
       <section className="home section" id="home">
         <div className="container">
           <div className="intro">
-          <img
-  src="/imgs/meperf.png"
-  alt="Al Siam Profile"
-  className="shadow-dark"
-  style={{ width: '300px', height: '300px' }}
-/>
-            <h1>Brahim Karmouna</h1>
-            <p>Full Stack Web Developer</p>
+            <Image
+              src="/imgs/meperf.png"
+              alt="Lord Castillo Profile"
+              className="shadow-dark"
+              width={300}
+              height={300}
+              priority
+            />
+            <h1>Lord Castillo</h1>
+            <p>I'm a <Typewriter texts={["Full Stack Web Developer", "UI/UX Designer", "Software Engineer"]} /></p>
             <div className="social-links">
-              <a href="https://twitter.com/" target="_blank">
-                <i className="fa fa-twitter" />
+              <a href="https://twitter.com/" target="_blank" aria-label="Twitter">
+                <FaTwitter />
               </a>
-              <a href="https://facebook.com/" target="_blank">
-                <i className="fa fa-facebook" />
+              <a href="https://facebook.com/" target="_blank" aria-label="Facebook">
+                <FaFacebook />
               </a>
-              <a href="https://github.com/BrahimKarmouna" target="_blank">
-                <i className="fa fa-github" />
+              <a href="https://github.com/BrahimKarmouna" target="_blank" aria-label="GitHub">
+                <FaGithub />
               </a>
-              <a href="https://instagram.com/" target="_blank">
-                <i className="fa fa-instagram" />
-              </a>
-              <a href="https://linkedin.com/brahim-karmouna/" target="_blank">
-                <i className="fa fa-linkedin" />
+              <a href="#" target="_blank" aria-label="LinkedIn">
+                <FaLinkedin />
               </a>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { FaCalendar } from "react-icons/fa";
 
 const About: NextPage = () => {
   return (
@@ -15,19 +16,21 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I'm Karmouna Brahim a <span> passionate and dedicated developer </span>
+                    I'm Lord Castillo a <span> passionate and dedicated developer </span>
                   </h2>
                   <p>
                 a specializing in delivering high-quality software solutions as a freelancer. With over five completed projects, I've honed my skills in various programming languages and frameworks, positioning myself as an adept and versatile programmer ready to tackle any challenge.
                   
                   </p>
                   <br/>
-                  <p>
-              <h2><span>Why Work With Me?</span> </h2>   
-Choosing to work with me means partnering with someone who is not only knowledgeable but also passionate about coding and development. I bring creativity, precision, and a commitment to delivering results that exceed expectations. My freelance experience has equipped me with the flexibility and resourcefulness to handle diverse projects, ensuring client satisfaction every step of the way.
+                  <div>
+                    <h2><span>Why Work With Me?</span> </h2>   
+                    <p>
+Choose to work with me means partnering with someone who is not only knowledgeable but also passionate about coding and development. I bring creativity, precision, and a commitment to delivering results that exceed expectations. My freelance experience has equipped me with the flexibility and resourcefulness to handle diverse projects, ensuring client satisfaction every step of the way.
 
 Let's build something amazing together!
-                  </p>
+                    </p>
+                  </div>
                 </div>
               </div>
          
@@ -41,7 +44,7 @@ Let's build something amazing together!
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2022 to 2024
+                            <FaCalendar /> 2022 to 2024
                           </h6>
                           <h4 className="timeline-title">
                        Web development 'Studying'
@@ -58,7 +61,7 @@ Let's build something amazing together!
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to 2022
+                            <FaCalendar /> 2019 to 2022
                           </h6>
                           <h4 className="timeline-title">
                            High school studying years
@@ -81,7 +84,7 @@ Let's build something amazing together!
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 04/2024 to 05/2024
+                            <FaCalendar /> 04/2024 to 05/2024
                           </h6>
                           <h4 className="timeline-title">internship  </h4>
                           <p className="timeline-text">
@@ -92,7 +95,7 @@ Let's build something amazing together!
                           <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 06/24 to 08/24
+                            <FaCalendar /> 06/24 to 08/24
                           </h6>
                           <h4 className="timeline-title">Work experience at Zeemarke company </h4>
                           <p className="timeline-text">

@@ -4,6 +4,7 @@ import type { NextPage } from "next";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
+import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Contact: NextPage = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -20,7 +21,8 @@ const Contact: NextPage = () => {
         "D6rvZ-4VTYBkI0nkJ" // Replace with your user ID
       );
       toast.success("Email Sent Successfully");
-      (e.target as HTMLFormElement).reset();
+      // @ts-ignore
+      e.target.reset();
     } catch (error) {
       console.log(error);
       toast.error("Failed to send email");
@@ -30,7 +32,7 @@ const Contact: NextPage = () => {
   };
 
   const handleEmailClick = () => {
-    const email = "brahimkarmouna@gmail.com";
+    const email = "lordgencastillo1@gmail.com";
     window.location.href = `mailto:${email}`;
   };
 
@@ -45,24 +47,24 @@ const Contact: NextPage = () => {
         <div className="row">
           <div className="contact-info-item padd-15">
             <div className="icon">
-              <i className="fa fa-map-marker" />
+              <FaMapMarkerAlt />
             </div>
-            <h4>Bni oukil ,Driouch</h4>
-            <p>Driouch, Morocco</p>
+            <h4>Address</h4>
+            <p>Berlin, Germany</p>
           </div>
           <div className="contact-info-item padd-15">
             <div className="icon">
-              <i className="fa fa-phone" />
+              <FaPhone />
             </div>
             <h4>Call Us On</h4>
             <p>+212 7662-69594</p>
           </div>
-          <div className="contact-info-item padd-15" onClick={handleEmailClick}>
+          <div className="contact-info-item padd-15" onClick={handleEmailClick} style={{ cursor: "pointer" }}>
             <div className="icon">
-              <i className="fa fa-envelope" />
+              <FaEnvelope />
             </div>
             <h4>Email</h4>
-            <p>brahimkarmouna@gmail.com</p>
+            <p>lordgencastillo1@gmail.com</p>
           </div>
         </div>
         <div className="row">
